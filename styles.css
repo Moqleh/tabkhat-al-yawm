@@ -55,3 +55,6 @@
 
 /* MO chef brand logo */
 .brandmark{overflow:hidden;background:white;border:2px solid #f5bfd1;display:grid;place-items:center}.brandmark img{width:100%;height:100%;object-fit:cover;display:block}.footer-logo{width:52px;height:52px;border-radius:50%;overflow:hidden;background:white;display:inline-grid;place-items:center;vertical-align:middle;margin-inline-end:8px}.footer-logo img{width:100%;height:100%;object-fit:cover;display:block}@media(max-width:700px){.brandmark{width:42px;height:42px}.footer-logo{width:46px;height:46px}}
+
+/* Chef logo in hero */
+.hero-chef-logo{width:112px;height:112px;border-radius:50%;overflow:hidden;background:#fff;border:3px solid #f4c0d1;box-shadow:0 12px 28px rgba(188,20,80,.14);margin:0 0 14px auto}.hero-chef-logo img{width:100%;height:100%;object-fit:cover;display:block}@media(max-width:700px){.hero-chef-logo{width:82px;height:82px;margin-bottom:10px}}
