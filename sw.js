@@ -1,5 +1,5 @@
-const CACHE='tabkhat-v12';
-const CORE=['./','./index.html','./styles.css?v=12','./recipes.js?v=12','./app.js?v=12','./manifest.webmanifest','./icon.svg','./assets/chef-mo-logo.webp'];
+const CACHE='tabkhat-v13';
+const CORE=['./','./index.html','./styles.css?v=13','./recipes.js?v=13','./app.js?v=13','./manifest.webmanifest','./icon.svg','./assets/chef-mo-logo-v2.webp'];
 const base=new URL('./',self.location.href);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('tabkhat-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
