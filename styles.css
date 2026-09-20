@@ -64,3 +64,6 @@
 
 /* Logo directly above main hero headline */
 .hero-copy .top-logo-showcase,.hero-grid>div:first-child .top-logo-showcase{justify-content:flex-start;padding:0 0 12px;background:transparent}.hero-grid>div:first-child .top-logo-showcase img{width:min(250px,52vw)}@media(max-width:700px){.hero-grid>div:first-child .top-logo-showcase{justify-content:center;padding-bottom:10px}.hero-grid>div:first-child .top-logo-showcase img{width:min(210px,58vw)}}
+
+/* Full logo visible immediately on page entry; hero logo remains */
+.entry-logo{display:flex;align-items:center;justify-content:center;padding:18px 16px 6px;background:linear-gradient(180deg,#fff 0%,#fff8fb 100%)}.entry-logo img{display:block;width:min(330px,74vw);height:auto;object-fit:contain;filter:drop-shadow(0 10px 22px rgba(172,25,77,.10))}@media(max-width:700px){.entry-logo{padding:12px 12px 2px}.entry-logo img{width:min(270px,76vw)}}
