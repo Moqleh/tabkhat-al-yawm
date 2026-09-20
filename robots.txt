@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moqleh.github.io/tabkhat-al-yawm/sitemap.xml
