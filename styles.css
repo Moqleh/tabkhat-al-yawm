@@ -49,3 +49,6 @@
  .featured .btn{left:14px;bottom:16px;min-width:116px;padding:10px 12px;font-size:.8rem}
  .visual-label{top:14px;right:14px;font-size:.78rem;padding:7px 12px}
 }
+
+/* Premium visual alignment and reserved ad area */
+.featured{background:rgba(255,250,251,.97);box-shadow:0 14px 34px rgba(74,32,50,.14);padding:20px 24px}.featured h2{font-size:1.65rem;line-height:1.35;margin:3px 0 6px;padding-inline-end:165px}.featured-copy{margin:0!important;font-size:.82rem!important;line-height:1.65!important;max-width:360px!important;color:var(--mut)!important}.featured .btn{bottom:25px}.hero-visual>img{box-shadow:0 22px 55px rgba(96,40,63,.14)}.ad-slot{width:min(1200px,92%);min-height:112px;margin:28px auto 34px;border:1px dashed #e1a7bb;border-radius:22px;background:linear-gradient(145deg,#fff,#fff4f8);display:grid;place-items:center;text-align:center;padding:18px;color:var(--mut)}.ad-slot b{display:block;color:var(--pd);font-size:.95rem;margin-bottom:4px}.ad-slot small{font-size:.75rem}@media(max-width:700px){.featured{left:12px;right:12px;bottom:12px;padding:16px 17px}.featured h2{font-size:1.35rem;padding-inline-end:0;margin-bottom:4px}.featured-copy{font-size:.78rem!important;line-height:1.55!important;padding-inline-end:0}.featured .btn{position:static;margin-top:11px;width:100%}.ad-slot{min-height:96px;margin:18px auto 24px}.hero-visual>img{height:380px}}
