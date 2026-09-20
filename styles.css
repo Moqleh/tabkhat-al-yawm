@@ -61,12 +61,3 @@
 
 /* Full brand artwork at the top of homepage */
 .top-logo-showcase{display:flex;justify-content:center;align-items:center;padding:22px 20px 4px;background:linear-gradient(180deg,#fff 0%,#fff7fa 100%)}.top-logo-showcase img{display:block;width:min(360px,72vw);height:auto;object-fit:contain}@media(max-width:700px){.top-logo-showcase{padding:14px 14px 0}.top-logo-showcase img{width:min(280px,78vw)}}
-
-/* Logo directly above main hero headline */
-.hero-copy .top-logo-showcase,.hero-grid>div:first-child .top-logo-showcase{justify-content:flex-start;padding:0 0 12px;background:transparent}.hero-grid>div:first-child .top-logo-showcase img{width:min(250px,52vw)}@media(max-width:700px){.hero-grid>div:first-child .top-logo-showcase{justify-content:center;padding-bottom:10px}.hero-grid>div:first-child .top-logo-showcase img{width:min(210px,58vw)}}
-
-/* Full logo visible immediately on page entry; hero logo remains */
-.entry-logo{display:flex;align-items:center;justify-content:center;padding:18px 16px 6px;background:linear-gradient(180deg,#fff 0%,#fff8fb 100%)}.entry-logo img{display:block;width:min(330px,74vw);height:auto;object-fit:contain;filter:drop-shadow(0 10px 22px rgba(172,25,77,.10))}@media(max-width:700px){.entry-logo{padding:12px 12px 2px}.entry-logo img{width:min(270px,76vw)}}
-
-/* v17: guarantee visible entry logo */
-.entry-logo{min-height:360px!important;display:flex!important;justify-content:center!important;align-items:center!important;padding:24px 16px!important;background:#fff8fb!important}.entry-logo img{display:block!important;visibility:visible!important;opacity:1!important;width:min(360px,72vw)!important;height:auto!important;max-height:360px!important;object-fit:contain!important;position:relative!important;z-index:2!important}@media(max-width:700px){.entry-logo{min-height:280px!important;padding:16px 12px!important}.entry-logo img{width:min(280px,78vw)!important;max-height:280px!important}}
