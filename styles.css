@@ -102,3 +102,7 @@
 .hero-brand>img{width:min(430px,88%);height:auto!important;max-height:440px;object-fit:contain!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
 .hero-recipes-btn{width:min(360px,90%)}
 @media(max-width:700px){.hero-brand{padding:20px 14px;border-radius:24px;gap:14px}.hero-brand>img{width:min(390px,92%);height:auto!important;max-height:none}.hero-recipes-btn{width:92%;font-size:.95rem}}
+
+/* Discovery improvements */
+.daily-pick{width:min(430px,94%);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;background:#fffaf7;border:1px solid var(--line);border-radius:16px}.daily-pick span{color:var(--pd);font-size:.75rem;font-weight:800}.daily-pick strong{font-size:.95rem;flex:1}.daily-pick .btn{padding:9px 12px;font-size:.75rem}.season-strip{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-top:38px;padding-bottom:12px}.season-strip h2{margin:5px 0;font-size:1.45rem}.season-actions{display:flex;gap:9px;flex-wrap:wrap}.season-actions .btn{border-radius:999px}
+@media(max-width:700px){.daily-pick{display:grid;grid-template-columns:1fr auto}.daily-pick span{grid-column:1/-1}.daily-pick .btn{font-size:.72rem}.season-strip{display:block;padding-top:26px}.season-actions{overflow-x:auto;flex-wrap:nowrap;padding:6px 0;scrollbar-width:none}.season-actions::-webkit-scrollbar{display:none}.season-actions .btn{flex:0 0 auto}.tips{display:none}}
