@@ -32,3 +32,20 @@
   .bottom button,.bottom a{font-size:.78rem}.bottom span{font-size:1.55rem}
   footer,footer button,footer a{font-size:.9rem}
 }
+
+
+/* Featured recipe polish */
+.featured{padding:22px 26px;background:rgba(255,250,251,.96);box-shadow:0 12px 35px rgba(71,35,50,.16)}
+.featured span{font-weight:700;letter-spacing:.2px}
+.featured h2{margin:3px 0 5px;font-size:1.65rem;line-height:1.35}
+.featured-copy{margin:0;max-width:62%;color:var(--mut);font-size:.8rem;line-height:1.7}
+.featured .btn{font-weight:800;min-width:150px;text-align:center}
+@media(max-width:700px){
+ .hero-visual>img{height:320px;border-radius:38px 18px 18px 18px}
+ .featured{left:12px;right:12px;bottom:12px;padding:16px 17px 17px;border-radius:17px}
+ .featured span{font-size:.78rem}
+ .featured h2{font-size:1.3rem;margin:2px 0 3px;padding-left:125px}
+ .featured-copy{display:none}
+ .featured .btn{left:14px;bottom:16px;min-width:116px;padding:10px 12px;font-size:.8rem}
+ .visual-label{top:14px;right:14px;font-size:.78rem;padding:7px 12px}
+}
