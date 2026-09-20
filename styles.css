@@ -96,3 +96,9 @@
  .tips article{border-inline-start:0;border-top:1px solid var(--line);padding:14px 0 0}
  .weekly-banner{margin-top:12px}
 }
+
+/* Homepage brand hero: logo replaces featured dish */
+.hero-brand{background:linear-gradient(145deg,#fff8f6,#f8ded8);border:1px solid var(--line);border-radius:28px;padding:28px;display:grid;place-items:center;gap:18px;box-shadow:var(--shadow)}
+.hero-brand>img{width:min(430px,88%);height:auto!important;max-height:440px;object-fit:contain!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+.hero-recipes-btn{width:min(360px,90%)}
+@media(max-width:700px){.hero-brand{padding:20px 14px;border-radius:24px;gap:14px}.hero-brand>img{width:min(390px,92%);height:auto!important;max-height:none}.hero-recipes-btn{width:92%;font-size:.95rem}}
