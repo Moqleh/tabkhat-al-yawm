@@ -58,3 +58,6 @@
 
 /* Chef logo in hero */
 .hero-chef-logo{width:112px;height:112px;border-radius:50%;overflow:hidden;background:#fff;border:3px solid #f4c0d1;box-shadow:0 12px 28px rgba(188,20,80,.14);margin:0 0 14px auto}.hero-chef-logo img{width:100%;height:100%;object-fit:cover;display:block}@media(max-width:700px){.hero-chef-logo{width:82px;height:82px;margin-bottom:10px}}
+
+/* Full brand artwork at the top of homepage */
+.top-logo-showcase{display:flex;justify-content:center;align-items:center;padding:22px 20px 4px;background:linear-gradient(180deg,#fff 0%,#fff7fa 100%)}.top-logo-showcase img{display:block;width:min(360px,72vw);height:auto;object-fit:contain}@media(max-width:700px){.top-logo-showcase{padding:14px 14px 0}.top-logo-showcase img{width:min(280px,78vw)}}
