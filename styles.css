@@ -123,3 +123,8 @@
 
 /* Molokhia card: preserve the title printed inside the original artwork */
 .card[data-recipe-index="3"] .card-image{object-fit:contain!important;object-position:center top!important;height:auto!important;aspect-ratio:auto!important;background:#1f1b1b}
+
+
+/* Recipe artwork: keep embedded titles fully visible in cards and recipe dialog */
+.card-image,.detail-image{object-fit:contain!important;object-position:center center!important;background:#fff7f4}
+.card[data-recipe-index="3"] .card-image{object-fit:contain!important;object-position:center center!important;width:100%!important;height:auto!important;max-height:none!important;background:#1f1b1b}
