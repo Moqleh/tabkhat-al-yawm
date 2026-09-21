@@ -114,3 +114,8 @@
 
 /* Compact assistant requested for mobile */
 .compact-assistant{grid-template-columns:auto 1fr auto;gap:16px;padding:18px 22px;min-height:0;align-items:center}.assistant-chef{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:#fff7f4;border:1px solid var(--line);font-size:2.6rem;box-shadow:0 6px 18px rgba(113,28,34,.08)}.compact-assistant h2{font-size:1.25rem;margin:2px 0}.compact-assistant p{margin:0;font-size:.84rem}.compact-assistant .assistant-actions{flex-wrap:nowrap}.compact-assistant .assistant-points{display:none}@media(max-width:700px){.compact-assistant{display:grid;grid-template-columns:58px 1fr;gap:11px;padding:14px 15px;margin-top:14px;border-radius:19px}.assistant-chef{width:54px;height:54px;font-size:2rem}.compact-assistant .assistant-copy{min-width:0}.compact-assistant .eyebrow{font-size:.68rem}.compact-assistant h2{font-size:1.05rem;margin:1px 0}.compact-assistant p{font-size:.74rem;line-height:1.5;margin:0}.compact-assistant .assistant-actions{grid-column:1/-1;display:flex;gap:8px}.compact-assistant .assistant-actions .btn{grid-column:auto;flex:1;padding:10px 8px;font-size:.76rem}}
+
+
+/* Keep recipe artwork text fully visible inside cards */
+.card-image{object-fit:contain;background:#fff7f4}
+@media(max-width:700px){.card-image{height:auto;aspect-ratio:1/1;object-fit:contain}}
