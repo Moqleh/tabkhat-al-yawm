@@ -119,3 +119,7 @@
 /* Keep recipe artwork text fully visible inside cards */
 .card-image{object-fit:contain;background:#fff7f4}
 @media(max-width:700px){.card-image{height:auto;aspect-ratio:1/1;object-fit:contain}}
+
+
+/* Molokhia card: preserve the title printed inside the original artwork */
+.card[data-recipe-index="3"] .card-image{object-fit:contain!important;object-position:center top!important;height:auto!important;aspect-ratio:auto!important;background:#1f1b1b}
