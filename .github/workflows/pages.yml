@@ -39,5 +39,9 @@ jobs:
           SITE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
-          curl --fail --silent --show-error --location --retry 8 --retry-all-errors --retry-delay 3 --output /tmp/sitemap.xml "${SITE_URL%/}/sitemap.xml"
-          grep -Fq '<urlset' /tmp/sitemap.xml
+          curl --fail --silent --show-error --location --retry 8 --retry-all-errors --retry-delay 3 --dump-header /tmp/sitemap.headers --output /tmp/sitemap.xml "${SITE_URL%/}/sitemap.xml"
+          grep -Fq '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' /tmp/sitemap.xml
+          grep -Eiq '^content-type: (application|text)/(xml|plain)|^content-type: application/octet-stream' /tmp/sitemap.headers
+          test "$(grep -c '<url>' /tmp/sitemap.xml)" -ge 1
+          curl --fail --silent --show-error --location --retry 8 --retry-all-errors --retry-delay 3 --output /tmp/robots.txt "${SITE_URL%/}/robots.txt"
+          grep -Fq 'Sitemap: https://moqleh.github.io/tabkhat-al-yawm/sitemap.xml' /tmp/robots.txt
